@@ -1,0 +1,16 @@
+:root {
+    --text-primary: rgb(255,255,255);
+    --text--secondary: rgb(145, 145, 145);
+}
+
+body {
+    color: var(--text-primary);
+  }
+  
+.text-primary {
+    color: var(--text-primary);
+}
+
+.text-secondary {
+    color: var(--text--secondary);
+}

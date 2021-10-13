@@ -1,0 +1,56 @@
+@import url("./style.css");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+
+  padding: 12px;
+}
+.btn-button {
+    text-transform: uppercase;
+    border-radius: 15px;
+    border: 2px solid var(--secondary-color);
+    background-color: var(--primary-color);
+}
+.button1 {
+  background-color: var(--surface);
+  color: var(--secondary-color);
+  text-transform: uppercase;
+  border-radius: 15px;
+  border: 2px solid var(--secondary-color);
+}
+.button2 {
+  background-color: var(--surface);
+  color: var(--secondary-color);
+  text-transform: uppercase;
+  border-radius: 15px;
+  border: 2px solid var(--secondary-color);
+}
+.button3 {
+  background-color: var(--surface);
+  color: var(--secondary-color);
+  text-transform: uppercase;
+  border-radius: 15px;
+  border: 2px solid var(--secondary-color);
+}
+.button2:hover {
+  background: var(--surface);
+}
+
+.icon1 {
+  padding: 12px;
+  border-radius: 4px;
+  color: var(--surface);
+  text-transform: uppercase;
+  justify-content: center;
+  color: var(--secondary-color);
+}
+.icon1:hover {
+  background:blue;
+  opacity: 0.8;
+}
